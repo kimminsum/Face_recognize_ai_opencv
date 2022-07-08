@@ -1,2 +1,2 @@
 # face_recognize_ai
-adfasfasdfasdfasd
+### using opencv to recognize face and eyes
