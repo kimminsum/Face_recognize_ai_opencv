@@ -41,7 +41,7 @@ class Recognize:
             face_color=frame[y:y+h,x:x+w]
             
             eyes = self.eyeCascade.detectMultiScale(face_gray,1.1,3)
-            
+            ### find and recognize eyes
             for(ex, ey,ew,eh) in eyes:
                 cv2.rectangle(face_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2) ### show eyes by rectangle
                 
