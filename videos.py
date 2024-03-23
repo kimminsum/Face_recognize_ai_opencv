@@ -16,7 +16,7 @@ class Recognize:
         video_capture = cv2.VideoCapture(0)
 
         while True:
-            _, frame =video_capture.read()
+            _, frame = video_capture.read()
             # frame = cv2.flip(frame,-1) ### reverse the image up to down direction
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 

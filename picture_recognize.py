@@ -8,7 +8,7 @@ eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml
 
 # 이미지 불러오기
 # '샘플이미지경로': 얼굴을 검출하고싶은 이미지 경로를 작성해주세요
-img = cv2.imread('/home/kar7mp5/바탕화면/Ai/20210517000543_0.jpg')
+img = cv2.imread('/home/kar7mp5/Projects/Face_recognize_ai_opencv/209389_58874_433.jpg')
 
 # 이미지 전처리
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
