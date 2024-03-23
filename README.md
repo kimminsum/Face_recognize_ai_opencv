@@ -1,2 +1,3 @@
-# face_recognize_ai
-### using opencv to recognize face and eyes
+# Obstacle Recognition
+
+### Author: Kar7mp5 (MinSup Kim)
